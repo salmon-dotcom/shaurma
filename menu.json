@@ -1,0 +1,46 @@
+{
+  "shawarma": [
+    {
+      "name": "Шаурма Классическая",
+      "description": "Сочная курица, свежие овощи, фирменный белый соус в хрустящем лаваше.",
+      "price": "250 ₽",
+      "image": "https://i1.wp.com/crispy.news/wp-content/uploads/2023/12/2023.12.25-4-3.jpg"
+    },
+    {
+      "name": "Шаурма Сырная",
+      "description": "Классический рецепт с двойной порцией нежного сыра.",
+      "price": "280 ₽",
+      "image": "ced77ac2791f907768a40dad24696322.webp"
+    }
+  ],
+  "coffee": [
+    {
+      "name": "Капучино",
+      "description": "Идеальный баланс эспрессо, молока и молочной пены.",
+      "price": "180 ₽",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Cappuccino_at_Sightglass_Coffee.jpg/1200px-Cappuccino_at_Sightglass_Coffee.jpg"
+    },
+    {
+      "name": "Американо",
+      "description": "Насыщенный эспрессо, разбавленный горячей водой. Бодрит!",
+      "price": "150 ₽",
+      "image": "coffee.jpg"
+    }
+  ],
+  "drinks": [
+    {
+      "name": "Лимонад 'Цитрус'",
+      "description": "Освежающий домашний лимонад с нотками апельсина и мяты.",
+      "price": "160 ₽",
+      "image": "баннер-из-стакана-домашнего-лимонада-с-веточкой-мяты-и-ломтиком-329173432.webp"
+    }
+  ],
+  "snacks": [
+    {
+      "name": "Картофель Фри",
+      "description": "Хрустящие золотистые ломтики с солью. Идеальное дополнение.",
+      "price": "120 ₽",
+      "image": "https://img.povar.ru/mobile/09/71/a5/2a/kartofel_fri_v_aerogrile-859618.jpg"
+    }
+  ]
+}

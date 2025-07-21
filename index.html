@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StreetGrill — Настоящий вкус уличной еды</title>
+    <meta name="description" content="Свежая шаурма, ароматный кофе и закуски в твоем городе. Заходи на перекус – останься навсегда!">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container">
+            <div class="header-content">
+                <a href="#hero" class="logo">StreetGrill</a>
+                <nav class="main-nav">
+                    <a href="#menu">Меню</a>
+                    <a href="#about">О нас</a>
+                    <a href="#contact">Контакты</a>
+                </nav>
+                <button id="theme-toggle" class="theme-toggle" aria-label="Переключить тему">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Block -->
+        <section id="hero" class="hero-section">
+            <div class="hero-overlay"></div>
+            <div class="container hero-content-container">
+                <h1 class="fade-in">Настоящий вкус уличной еды</h1>
+                <p class="fade-in">Свежая шаурма и ароматный кофе рядом с тобой!</p>
+                <a href="#menu" class="btn btn-primary fade-in">Смотреть меню</a>
+            </div>
+        </section>
+
+        <!-- Menu Section -->
+        <section id="menu" class="menu-section">
+            <div class="container">
+                <h2 class="section-title fade-in">Наше Меню</h2>
+                <div id="menu-container">
+                    <!-- Категории и карточки будут вставлены сюда с помощью JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2 class="section-title fade-in">Никаких компромиссов во вкусе</h2>
+                <div class="advantages-grid">
+                    <div class="advantage-card fade-in">
+                        <div class="advantage-icon">🚀</div>
+                        <h3>Быстро</h3>
+                        <p>Готовим ваш заказ за минуты, чтобы вы не теряли время.</p>
+                    </div>
+                    <div class="advantage-card fade-in">
+                        <div class="advantage-icon">🌿</div>
+                        <h3>Свежие ингредиенты</h3>
+                        <p>Используем только свежие овощи, мясо и авторские соусы.</p>
+                    </div>
+                    <div class="advantage-card fade-in">
+                        <div class="advantage-icon">😋</div>
+                        <h3>Очень вкусно</h3>
+                        <p>Наши повара знают секрет идеальной шаурмы и кофе.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2 class="section-title fade-in">Мы здесь</h2>
+                <div class="contact-grid">
+                    <div class="contact-info fade-in">
+                        <h3>Наш адрес:</h3>
+                        <p>г Москва 3-я Нововатутинская ул., д. 6</p>
+                        <h3>Свяжитесь с нами:</h3>
+                        <p>
+                            <a href="tel:+79991234567" class="contact-link">📞 Позвонить: +7 (977) 430-20-07</a>
+                        </p>
+                        <p>
+                            <a href="https://wa.me/79774302007" target="_blank" class="contact-link">💬 Написать в WhatsApp</a>
+                        </p>
+                        <p>
+                            <a href="https://t.me/SV_07l" target="_blank" class="contact-link">✈️ Написать в Telegram</a>
+                        </p>
+                    </div>
+                    <div class="contact-map fade-in">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1132.9423941595314!2d37.350657706373546!3d55.521479181332666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sit!4v1753097960681!5m2!1sru!2sit"
+                            width="100%" 
+                            height="350" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer-bottom">
+        <div class="container">
+            <p>&copy; 2024 StreetGrill. Все права защищены.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
